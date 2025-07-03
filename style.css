@@ -224,7 +224,7 @@ body {
 }
 
 .book-card {
-  background-color: #f9f9f9;
+  background-color: white;
   padding: 20px;
   width: 220px;
   border-radius: 10px;
@@ -254,16 +254,51 @@ body {
   color: #555;
 }
 
-
-.bg {
-  background-color: black;
-  padding-top: 80px; 
-  padding-bottom: 20px;
-  margin-top: 10px;
+.newsletter {
+  background-color: whitesmoke;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
 }
 
-.white {
-  display: flex;
-  align-items: flex-end;
+.newsletter h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.newsletter button {
+  padding: 10px 25px;
+  background-color: orangered;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+.newsletter button:hover {
+  background-color: #c0392b;
+}
+
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
